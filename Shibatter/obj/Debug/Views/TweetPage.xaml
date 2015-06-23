@@ -1,0 +1,43 @@
+﻿<prism:VisualStateAwarePage
+    x:Class="Shibatter.Views.TweetPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Shibatter.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:prism="using:Microsoft.Practices.Prism.StoreApps"
+    xmlns:mvvm="using:Microsoft.Practices.Prism.Mvvm"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    mvvm:ViewModelLocator.AutoWireViewModel="True"
+    FontFamily="Global User Interface">
+    <prism:VisualStateAwarePage.BottomAppBar>
+        <CommandBar Background="DodgerBlue">
+            <AppBarButton Icon="Edit" Label="Tweet"/>
+            <AppBarButton Icon="Pictures" Label="Pictures"/>
+            <AppBarButton Icon="Cancel" Label="Cancel"/>
+        </CommandBar>
+    </prism:VisualStateAwarePage.BottomAppBar>
+    <Grid>
+        <TextBlock Text="PostTweet"
+                   Style="{ThemeResource HeaderTextBlockStyle}"
+                   FontSize="20" Margin="10,10,10,10"
+                   VerticalAlignment="Top" />
+        <TextBox x:Name="txbTweet"
+                 HorizontalAlignment="Left"
+                 Margin="10,40,0,0"
+                 TextWrapping="Wrap"
+                 VerticalAlignment="Top"
+                 Width="380" Height="100"
+                 FontFamily="Global User Interface"
+                 Visibility="Collapsed" />
+        <TextBox x:Name="TextBoxTweet"
+                 Margin="10,47,10,0"
+                 TextWrapping="Wrap"
+                 VerticalAlignment="Top"
+                 Height="160"
+                 AcceptsReturn="True"
+                 MaxHeight="200"/>
+    </Grid>
+</prism:VisualStateAwarePage>
+

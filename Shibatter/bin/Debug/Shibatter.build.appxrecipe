@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>KANAZAWA-NPC</Machine>
+    <WindowsUser>Ryo</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>d7d51344-6611-460e-87b8-27386ef54ae7</PackageIdentityName>
+    <IntermediateOutputPath>D:\Git\TomoyaShibata\Shibatter\Shibatter\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Git\TomoyaShibata\Shibatter\Shibatter\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Git\TomoyaShibata\Shibatter\Shibatter\bin\Debug\Shibatter.exe">
+      <PackagePath>Shibatter.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\TomoyaShibata\Shibatter\packages\Prism.Mvvm.1.1.1\lib\wpa81\Microsoft.Practices.Prism.Mvvm.dll">
+      <PackagePath>Microsoft.Practices.Prism.Mvvm.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\TomoyaShibata\Shibatter\packages\Prism.Mvvm.1.1.1\lib\wpa81\Microsoft.Practices.Prism.Mvvm.Phone.dll">
+      <PackagePath>Microsoft.Practices.Prism.Mvvm.Phone.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\TomoyaShibata\Shibatter\packages\Prism.Mvvm.1.1.1\lib\wpa81\Microsoft.Practices.Prism.SharedInterfaces.dll">
+      <PackagePath>Microsoft.Practices.Prism.SharedInterfaces.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\TomoyaShibata\Shibatter\packages\Prism.StoreApps.2.0.0\lib\wpa81\Microsoft.Practices.Prism.StoreApps.dll">
+      <PackagePath>Microsoft.Practices.Prism.StoreApps.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\TomoyaShibata\Shibatter\packages\Prism.StoreApps.2.0.0\lib\wpa81\Microsoft.Practices.Prism.StoreApps.Phone.dll">
+      <PackagePath>Microsoft.Practices.Prism.StoreApps.Phone.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\TomoyaShibata\Shibatter\packages\ReactiveProperty.2.2\lib\wpa81\ReactiveProperty.DataAnnotations.dll">
+      <PackagePath>ReactiveProperty.DataAnnotations.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\TomoyaShibata\Shibatter\packages\ReactiveProperty.2.2\lib\wpa81\ReactiveProperty.dll">
+      <PackagePath>ReactiveProperty.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\TomoyaShibata\Shibatter\packages\ReactiveProperty.2.2\lib\wpa81\ReactiveProperty.WPA81.dll">
+      <PackagePath>ReactiveProperty.WPA81.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\TomoyaShibata\Shibatter\packages\Rx-Core.2.2.5\lib\portable-win81+wpa81\System.Reactive.Core.dll">
+      <PackagePath>System.Reactive.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\TomoyaShibata\Shibatter\packages\Rx-Interfaces.2.2.5\lib\portable-win81+wpa81\System.Reactive.Interfaces.dll">
+      <PackagePath>System.Reactive.Interfaces.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\TomoyaShibata\Shibatter\packages\Rx-Linq.2.2.5\lib\portable-win81+wpa81\System.Reactive.Linq.dll">
+      <PackagePath>System.Reactive.Linq.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\TomoyaShibata\Shibatter\packages\Rx-PlatformServices.2.2.5\lib\portable-win81+wpa81\System.Reactive.PlatformServices.dll">
+      <PackagePath>System.Reactive.PlatformServices.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\TomoyaShibata\Shibatter\Shibatter\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\TomoyaShibata\Shibatter\Shibatter\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\TomoyaShibata\Shibatter\Shibatter\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\TomoyaShibata\Shibatter\Shibatter\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\TomoyaShibata\Shibatter\Shibatter\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\TomoyaShibata\Shibatter\Shibatter\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\TomoyaShibata\Shibatter\Shibatter\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\TomoyaShibata\Shibatter\Shibatter\bin\Debug\Views\MainPage.xbf">
+      <PackagePath>Views\MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\TomoyaShibata\Shibatter\Shibatter\bin\Debug\Views\TweetPage.xbf">
+      <PackagePath>Views\TweetPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\TomoyaShibata\Shibatter\Shibatter\bin\Debug\Shibatter.xr.xml">
+      <PackagePath>Shibatter.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\TomoyaShibata\Shibatter\Shibatter\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

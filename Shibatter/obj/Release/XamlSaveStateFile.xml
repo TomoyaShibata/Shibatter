@@ -1,0 +1,16 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <ReferenceAssembly PathName="d:\git\tomoyashibata\shibatter\packages\prism.mvvm.1.1.1\lib\wpa81\microsoft.practices.prism.mvvm.dll" HashGuid="cbdd458f-3f7b-91dd-175a-6fbe0d8f860e" />
+    <ReferenceAssembly PathName="d:\git\tomoyashibata\shibatter\packages\prism.mvvm.1.1.1\lib\wpa81\microsoft.practices.prism.mvvm.phone.dll" HashGuid="347692ae-d3bb-41c8-00a0-1222d3d82e87" />
+    <ReferenceAssembly PathName="d:\git\tomoyashibata\shibatter\packages\prism.mvvm.1.1.1\lib\wpa81\microsoft.practices.prism.sharedinterfaces.dll" HashGuid="77ddb96d-234e-bbe6-7043-530fe79bc489" />
+    <ReferenceAssembly PathName="d:\git\tomoyashibata\shibatter\packages\prism.storeapps.2.0.0\lib\wpa81\microsoft.practices.prism.storeapps.dll" HashGuid="480782f1-e4b6-714d-0927-945a03634ad1" />
+    <ReferenceAssembly PathName="d:\git\tomoyashibata\shibatter\packages\prism.storeapps.2.0.0\lib\wpa81\microsoft.practices.prism.storeapps.phone.dll" HashGuid="aa6e2f7a-71df-e1ca-7524-7ca1d4a1bf08" />
+    <ReferenceAssembly PathName="d:\git\tomoyashibata\shibatter\packages\reactiveproperty.2.2\lib\wpa81\reactiveproperty.dataannotations.dll" HashGuid="453dd44b-e269-874c-511f-84ba377744cf" />
+    <ReferenceAssembly PathName="d:\git\tomoyashibata\shibatter\packages\reactiveproperty.2.2\lib\wpa81\reactiveproperty.dll" HashGuid="882dd4c4-f52c-0129-f622-f5360c2d7d49" />
+    <ReferenceAssembly PathName="d:\git\tomoyashibata\shibatter\packages\reactiveproperty.2.2\lib\wpa81\reactiveproperty.wpa81.dll" HashGuid="d992034b-56f0-18b2-beac-61ab4c33507a" />
+    <ReferenceAssembly PathName="d:\git\tomoyashibata\shibatter\packages\rx-core.2.2.5\lib\portable-win81+wpa81\system.reactive.core.dll" HashGuid="e88ff990-7aa8-b77f-93a1-598ee1f64e5f" />
+    <ReferenceAssembly PathName="d:\git\tomoyashibata\shibatter\packages\rx-interfaces.2.2.5\lib\portable-win81+wpa81\system.reactive.interfaces.dll" HashGuid="2fd855ee-8440-f81f-a427-ceb8eb15ce8f" />
+    <ReferenceAssembly PathName="d:\git\tomoyashibata\shibatter\packages\rx-linq.2.2.5\lib\portable-win81+wpa81\system.reactive.linq.dll" HashGuid="415e3b50-c164-f753-1f27-a0a2efe20748" />
+    <ReferenceAssembly PathName="d:\git\tomoyashibata\shibatter\packages\rx-platformservices.2.2.5\lib\portable-win81+wpa81\system.reactive.platformservices.dll" HashGuid="af6ba9ad-5f77-bdaa-1d18-22248e6f3c99" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>
