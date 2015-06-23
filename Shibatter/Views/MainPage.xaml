@@ -11,6 +11,12 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     mvvm:ViewModelLocator.AutoWireViewModel="True"
     FontFamily="Global User Interface">
+    <Grid>
+        <TextBlock Text="{Binding HeaderTitle.Value}"
+                   Style="{ThemeResource BodyTextBlockStyle}"
+                   FontSize="20" Margin="10,10,10,10"
+                   VerticalAlignment="Top" />
+    </Grid>
     <prism:VisualStateAwarePage.BottomAppBar>
         <CommandBar Background="DodgerBlue">
             <AppBarButton x:Name="AppBarButtonTweet"
@@ -19,18 +25,4 @@
                           Command="{Binding NavigateTweetPageCommand}"/>
         </CommandBar>
     </prism:VisualStateAwarePage.BottomAppBar>
-    <Grid>
-        <TextBlock Text="{Binding HeaderTitle.Value}"
-                   Style="{ThemeResource BodyTextBlockStyle}"
-                   FontSize="20" Margin="10,10,10,10"
-                   VerticalAlignment="Top" />
-        <TextBox x:Name="txbTweet"
-                 HorizontalAlignment="Left"
-                 Margin="10,40,0,0"
-                 TextWrapping="Wrap"
-                 VerticalAlignment="Top"
-                 Width="380" Height="100"
-                 FontFamily="Global User Interface"
-                 Visibility="Collapsed" />
-    </Grid>
 </prism:VisualStateAwarePage>

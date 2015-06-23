@@ -15,7 +15,7 @@
         <CommandBar Background="DodgerBlue">
             <AppBarButton Icon="Edit" Label="Tweet"/>
             <AppBarButton Icon="Pictures" Label="Pictures"/>
-            <AppBarButton Icon="Cancel" Label="Cancel"/>
+            <AppBarButton x:Name="AppBarButtonCancel" Icon="Cancel" Label="Cancel" Click="AppBarButtonCancel_Click"/>
         </CommandBar>
     </prism:VisualStateAwarePage.BottomAppBar>
     <Grid>
