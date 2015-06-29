@@ -26,11 +26,6 @@ namespace Shibatter.Models
             this.DraftModels.Clear();
 
             localDraftModels.ToObservable().ForEachAsync(_ => this.DraftModels.Add(_));
-
-            //foreach (var localDraftModel in localDraftModels)
-            //{
-            //    this.DraftModels.Add(localDraftModel);
-            //}
         }
     }
 }
