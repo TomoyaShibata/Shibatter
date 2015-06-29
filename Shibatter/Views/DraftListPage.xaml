@@ -1,0 +1,40 @@
+﻿<prism:VisualStateAwarePage xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                            xmlns:local="using:Shibatter.Views"
+                            xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                            xmlns:prism="using:Microsoft.Practices.Prism.StoreApps"
+                            xmlns:mvvm="using:Microsoft.Practices.Prism.Mvvm"
+                            xmlns:Models="using:Shibatter.Models"
+                            x:Class="Shibatter.Views.DraftListPage"
+                            mc:Ignorable="d"
+                            Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+                            mvvm:ViewModelLocator.AutoWireViewModel="True"
+                            FontFamily="Global User Interface"
+                            d:DataContext="{d:DesignInstance Models:DraftListPageModel, IsDesignTimeCreatable=True}">
+    <prism:VisualStateAwarePage.Resources>
+        <DataTemplate x:Key="DraftModelTemplate">
+            <StackPanel Orientation="Vertical"
+                        d:DataContext="{d:DesignInstance Models:DraftModel, IsDesignTimeCreatable=True}">
+                <TextBlock Text="{Binding CreatedAt}"
+                           FontSize="20" />
+                <TextBlock Text="{Binding TweetText}"
+                           Style="{ThemeResource BodyTextBlockStyle}" />
+            </StackPanel>
+        </DataTemplate>
+    </prism:VisualStateAwarePage.Resources>
+    <Grid>
+        <ListView HorizontalAlignment="Left"
+                  Height="589"
+                  Margin="10,41,0,0"
+                  VerticalAlignment="Top"
+                  Width="380"
+                  ItemsSource="{Binding DraftListPageModels}"
+                  ItemTemplate="{StaticResource DraftModelTemplate}">
+            <ListView.Header>
+                <TextBlock Text="下書き"
+                           Style="{ThemeResource HeaderTextBlockStyle}" />
+            </ListView.Header>
+        </ListView>
+    </Grid>
+</prism:VisualStateAwarePage>
