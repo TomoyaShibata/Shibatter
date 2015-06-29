@@ -4,6 +4,7 @@ using Windows.Globalization;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Microsoft.Practices.Prism.Mvvm;
+using Shibatter.Models;
 using Shibatter.ViewModels;
 using Shibatter.Views;
 
@@ -29,10 +30,14 @@ namespace Shibatter
 
         protected override Task OnInitializeAsync(IActivatedEventArgs args)
         {
+            var rootModel = new RootModel();
+
             ViewModelLocationProvider.Register(
                 typeof(MainPage).FullName, () => new MainPageViewModel(this.NavigationService));
             ViewModelLocationProvider.Register(
                 typeof(TweetPage).FullName, () => new TweetPageViewModel());
+            ViewModelLocationProvider.Register(
+                typeof(DraftListPage).FullName, () => new DraftListPageViewModel(rootModel));
             return base.OnInitializeAsync(args);
         } 
     }
